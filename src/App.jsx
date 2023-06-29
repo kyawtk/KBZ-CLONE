@@ -4,14 +4,16 @@ import "./App.css";
 import Accordion from "./components/Accordion";
 import DefaultCarousel from "./components/Carousel";
 import ExchangeRate from "./components/ExchangeRate";
-import PopUp from './components/PopUp'
+import PopUp from "./components/PopUp";
 import News from "./components/News";
+import CustomCursor from "./components/CustomCursor";
 function App() {
   return (
     <>
-     <DefaultCarousel></DefaultCarousel>
+    <CustomCursor></CustomCursor>
+      <DefaultCarousel></DefaultCarousel>
       <Accordion></Accordion>
-      <News></News>     
+      <News></News>
       <PopUp></PopUp>
     </>
   );
